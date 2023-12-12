@@ -1,7 +1,7 @@
 import React from "react";
 import style from "./challenge1.module.css";
 import flight from "./icon.png";
-import qr1 from "./qr1.jpg";
+import qr1 from "./qr1.webp";
 
 const Challenge1 = () => {
   const time = new Date().toLocaleTimeString();
