@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+span{
+    font-size: smaller;
+
+}
+h3{
+    font-size: 0.9rem;
+    font-weight: 550;
+}
+#container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+#component {
+  margin: auto;
+  width: 22%;
+  height: 500px;
+  background-image: linear-gradient(
+    rgb(231, 211, 189) 50%,
+    rgb(9, 9, 53) 50%
+  );
+  border-radius: 20px;
+}
+#logo{
+    border-radius: 20px 0px 0px 0px;
+    padding: 10px;
+    width: 50%;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: chartreuse; */
+}#logo h1{
+
+}
+.flightNumber{
+    width: 75%;
+    height: 6%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    /* font-size: smaller; */
+    /* background-color: coral; */
+
+}
+.passengerName{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    height: 12%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.passengerName div {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+.boarding div, .gate div, .class div, .zone div, .seat div{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+#sec1, #sec2{
+    display: flex;
+    height: 12%; 
+}
+.boarding{
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    /* background-color: rgb(100, 237, 146); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gate{
+    padding: 10px 10px 10px 10px;
+    width: 40%;
+    /* background-color: rgb(100, 237, 146); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.class{
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    /* background-color: rgb(237, 162, 100); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.zone{
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+    /* background-color: rgb(237, 162, 100); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.seat{
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+    /* background-color: rgb(237, 162, 100); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/*===================*/
+#wallet{
+    width: 100%;
+    height: 50%;
+    border-radius: 0px 0px 20px 20px;
+    /* background-color: rgb(22, 98, 61); */
+    display: flex;
+}
+#destination{
+    width: 45%;
+    height: 100%;
+    border-radius: 0px 0px 0px 20px;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#destination #board{
+    width: 100%;
+    height: 23%;
+    /* background-color:dimgray ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#destination #traingle{
+    width: 100%;
+    height: 23%;
+    /* background-color:rgb(76, 43, 43) ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#destination #traingle svg{
+    width: 40%;
+    fill: rgb(6, 181, 140);
+}
+#destination #drop{
+    width: 100%;
+    height: 23%;
+    /* background-color:rgb(208, 58, 58) ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#destination #circle{
+    width: 100%;
+    height: 20%;
+    /* background-color:rgb(58, 208, 101) ; */
+    display: flex;
+}
+#destination #circle svg{
+    width: 25%;
+    margin-left: 1rem;
+    fill: rgb(6, 181, 140);
+
+}
+#qrcode{
+    width: 55%;
+    height: 100%;
+    border-radius: 0px 0px 20px 0px;
+
+    /* background-color: chocolate; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#qrcode img{
+    width: 90%;
+}
+#qrcode button{
+    width: 90%;
+    height: 10%;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(6, 181, 140) ;
+}
